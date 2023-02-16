@@ -56,4 +56,9 @@ header > h1 {
 
 .result {
     font-size: 40px;
+    color: black;
+}
+
+.result > h1 {
+    text-align: center;
 }
