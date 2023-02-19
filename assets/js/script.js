@@ -16,7 +16,24 @@ return choices[randomNumber];
 
 function game(userChoice) {
     const computerChoice = getComputerChoice();
-    
+    switch (userChoice + computerChoice) {
+        case "rsciss":
+        case "pr":
+        case "scissp":
+          console.log("USER WINS");
+          break;
+        case "rp":
+        case "psciss":
+        case "scissr":
+          console.log("USER LOSES");
+          break;
+        case "rr":
+        case "pp":
+        case "scisssciss":
+          console.log("Tie!");
+          break;
+    }
+
 
 }
 
