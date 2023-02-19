@@ -10,14 +10,17 @@ const scissors_div = document.getElementById("sciss");
 
 function getComputerChoice() {
 const choices = ['r', 'p', 'sciss'];
-const randomNumber(Math.floor(Math.random() * 3));
+const randomNumber = Math.floor(Math.random() * 3);
 return choices[randomNumber];
 }
-getComputerChoice()
 
 function game(userChoice) {
+    const computerChoice = getComputerChoice();
     
+
 }
+
+game("c");
 
 function main() {
     rock_div.addEventListener('click', function() {
