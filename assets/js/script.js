@@ -1,5 +1,24 @@
 let userScore = 0;
 let computerScore = 0;
+
+const modal = document.querySelector(".modal");
+const helpBtn = document.querySelector("#help");
+const closeBtn = document.querySelector(".close");
+
+helpBtn.addEventListener("click", function() {
+    modal.style.display = "block";
+});
+
+closeBtn.addEventListener("click", function() {
+    modal.style.display = "none";
+});
+
+window.addEventListener("click", function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+});
+
 const userScoreSpan = document.getElementById("user-score");
 const computerScoreSpan = document.getElementById("computer-score");
 const scoreBoard_div = document.querySelector(".score-board");
