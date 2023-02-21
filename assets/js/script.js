@@ -21,7 +21,7 @@ window.addEventListener("click", function(event) {
 
 const userScoreSpan = document.getElementById("user-score");
 const computerScoreSpan = document.getElementById("computer-score");
-const scoreBoard_div = document.querySelector(".score-board");
+const scoreBoard_div = document.querySelector(".score-board");// not used anywhere????????????
 const result_p = document.querySelector(".result > p");
 const rock_div = document.getElementById("r");
 const paper_div = document.getElementById("p");
@@ -48,7 +48,7 @@ function win(userChoice, computerChoice) {
     computerScoreSpan.innerHTML = computerScore;
     result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} beats ${convertToWord(computerChoice)}${smallCompWord}. You win! `;
     userChoice_div.classList.add('green-glow');
-    setTimeout(() => userChoice_div.classList.remove('green-glow'), 300);
+    setTimeout(() => userChoice_div.classList.remove('green-glow'), 3000);
 }
 
 
@@ -62,7 +62,7 @@ function lose(userChoice, computerChoice) {
     computerScoreSpan.innerHTML = computerScore;
     result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} loses to ${convertToWord(computerChoice)}${smallCompWord}. You lost! `;
     userChoice_div.classList.add('red-glow');
-    setTimeout(() => userChoice_div.classList.remove('red-glow'), 300);
+    setTimeout(() => userChoice_div.classList.remove('red-glow'), 3000);
 }
 
 function tie(userChoice, computerChoice) {
@@ -71,7 +71,7 @@ function tie(userChoice, computerChoice) {
     const userChoice_div = document.getElementById(userChoice);
     result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} equals ${convertToWord(computerChoice)}${smallCompWord}. It's a tie! `;
     userChoice_div.classList.add('gray-glow');
-    setTimeout(() => userChoice_div.classList.remove('gray-glow'), 300);
+    setTimeout(() => userChoice_div.classList.remove('gray-glow'), 3000);
 }
 
 function game(userChoice) {
