@@ -26,17 +26,22 @@ const result_p = document.querySelector(".result > p");
 const rock_div = document.getElementById("r");
 const paper_div = document.getElementById("p");
 const scissors_div = document.getElementById("sciss");
+const lizard_div = document.getElementById("l");
+const spock_div = document.getElementById("sp");
+
 
 function getComputerChoice() {
-const choices = ['r', 'p', 'sciss'];
-const randomNumber = Math.floor(Math.random() * 3);
+const choices = ['r', 'p', 'sciss', 'l', 'sp'];
+const randomNumber = Math.floor(Math.random() * 5);
 return choices[randomNumber];
 }
 
 function convertToWord(letter) {
     if (letter === "r") return "Rock";
     if (letter === "p") return "Paper";
-    return "Scissors";
+    if (letter === "sciss") return "Scissors";
+    if (letter === "l") return "Lizard";
+    return "Spock";
 }
 
 function win(userChoice, computerChoice) {
