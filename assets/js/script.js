@@ -76,22 +76,42 @@ function tie(userChoice, computerChoice) {
     setTimeout(() => userChoice_div.classList.remove('gray-glow'), 300);
 }
 
+
+/* 
+Code to determine which weapon thrumps another
+*/
 function game(userChoice) {
     const computerChoice = getComputerChoice();
     switch (userChoice + computerChoice) {
         case "rsciss":
+        case "rl":
         case "pr":
+        case "psp":
+        case "scissl":
         case "scissp":
+        case "lsp":
+        case "lp":
+        case "spsciss":
+        case "spr":
           win(userChoice, computerChoice);
           break;
-        case "rp":
-        case "psciss":
         case "scissr":
+        case "lr":
+        case "rp":
+        case "spp":
+        case "lsicss":
+        case "psciss":
+        case "spl":
+        case "pl":
+        case "scisssp":
+        case "rsp":
           lose(userChoice, computerChoice);
           break;
         case "rr":
         case "pp":
         case "scisssciss":
+        case "ll":
+        case "spsp":
           tie(userChoice, computerChoice);
           break;
     }
@@ -108,6 +128,12 @@ function main() {
 })
     scissors_div.addEventListener('click', function() {
     game("sciss");
+})
+    lizard_div.addEventListener('click', function() {
+    game("l");
+})
+    spock_div.addEventListener('click', function() {
+    game("sp");
 })
 }
 
