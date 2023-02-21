@@ -40,38 +40,35 @@ function convertToWord(letter) {
 }
 
 function win(userChoice, computerChoice) {
-    const smallUserWord = "user".fontsize(3).sub();
-    const smallCompWord = "comp".fontsize(3).sub();
+   
     const userChoice_div = document.getElementById(userChoice);
     userScore++;
     userScoreSpan.innerHTML = userScore;
     computerScoreSpan.innerHTML = computerScore;
-    result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} beats ${convertToWord(computerChoice)}${smallCompWord}. You win! `;
+    result_p.innerHTML = `${convertToWord(userChoice)} beats ${convertToWord(computerChoice)}. You win! `;
     userChoice_div.classList.add('green-glow');
-    setTimeout(() => userChoice_div.classList.remove('green-glow'), 3000);
+    setTimeout(() => userChoice_div.classList.remove('green-glow'), 300);
 }
 
 
 
 function lose(userChoice, computerChoice) {
-    const smallUserWord = "user".fontsize(3).sub();
-    const smallCompWord = "comp".fontsize(3).sub();
+    
     const userChoice_div = document.getElementById(userChoice);
     computerScore++;
     userScoreSpan.innerHTML = userScore;
     computerScoreSpan.innerHTML = computerScore;
-    result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} loses to ${convertToWord(computerChoice)}${smallCompWord}. You lost! `;
+    result_p.innerHTML = `${convertToWord(userChoice)} loses to ${convertToWord(computerChoice)}. You lost! `;
     userChoice_div.classList.add('red-glow');
-    setTimeout(() => userChoice_div.classList.remove('red-glow'), 3000);
+    setTimeout(() => userChoice_div.classList.remove('red-glow'), 300);
 }
 
 function tie(userChoice, computerChoice) {
-    const smallUserWord = "user".fontsize(3).sub();
-    const smallCompWord = "comp".fontsize(3).sub();
+    
     const userChoice_div = document.getElementById(userChoice);
-    result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} equals ${convertToWord(computerChoice)}${smallCompWord}. It's a tie! `;
+    result_p.innerHTML = `${convertToWord(userChoice)} equals ${convertToWord(computerChoice)}. It's a tie! `;
     userChoice_div.classList.add('gray-glow');
-    setTimeout(() => userChoice_div.classList.remove('gray-glow'), 3000);
+    setTimeout(() => userChoice_div.classList.remove('gray-glow'), 300);
 }
 
 function game(userChoice) {
