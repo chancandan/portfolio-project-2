@@ -131,7 +131,7 @@ header > h1 {
     text-align: center;
     width: 200px;
     color: black;
-    font-size: 46px;
+    font-size: 40px;
     padding: 15px 20px;
     font-family: electrolize, sans-serif;
     position: relative;
@@ -185,29 +185,23 @@ header > h1 {
     padding: 10px;
     display: inline-block;
     transition: all 0.3s ease;
-    /* flex: 1 0 40%; /* Make the choice divs take up 40% of the container */
 }
 
-@media (max-width: 400px) {
-    .choice {
-        width: calc(50% - 20px);
+@media screen and (max-width: 400px) {
+    .choices {
+      flex-wrap: wrap;
     }
-}
+  
+    .choice {
+      width: 50%;
+    }
+  }
+  
 
 .choice:hover {
     cursor: pointer;
     border-radius: 50%;
     background: #225762;
-}
-
-/* not in use */
-#action-message {
-    text-align: center;
-    color: #589595;
-    font-family: Asap, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 20px;
 }
 
 .green-glow {
@@ -224,3 +218,4 @@ header > h1 {
     border: 8px solid #464647;
     box-shadow: 0 0 10px #25292b;
 }
+
