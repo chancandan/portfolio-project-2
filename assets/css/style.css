@@ -24,13 +24,14 @@ header > h1 {
 
 #help {
     display: inline-block;
+    height: 50px;
     margin: 0 auto;
     text-align: center;
     margin-top: 20px;
     padding: 10px 20px;
     background-color: #589595;
     color: white;
-    font-size: 16px;
+    font-size: 22px;
     cursor: pointer;
 }
 
