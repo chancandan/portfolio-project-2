@@ -26,12 +26,17 @@ header > h1 {
     color: #589595;
     text-align: center;
     font-family: Asap, sans-serif;
+    padding: 10px 0;
+    margin-bottom: 20px;
 }
 
 #all-rules {
     color: #225762;
     text-align: center;
     font-family: Asap, sans-serif;
+    padding: 20px;
+    border: 1px solid #589595;
+    border-radius: 5px;
 }
 
 #help {
@@ -98,7 +103,8 @@ header > h1 {
     margin: 15% auto; /* Put the content at 15% from the top and center it*/
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /*Could be more or less, depending on the screen size */
+    max-width: 500px;
+    width: 50%; /*Could be more or less, depending on the screen size */
 }
 
 .close {
