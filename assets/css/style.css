@@ -173,6 +173,9 @@ header > h1 {
 .choices {
     margin-top: 50px 0;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .choice {
@@ -182,6 +185,13 @@ header > h1 {
     padding: 10px;
     display: inline-block;
     transition: all 0.3s ease;
+    /* flex: 1 0 40%; /* Make the choice divs take up 40% of the container */
+}
+
+@media (max-width: 400px) {
+    .choice {
+        width: calc(50% - 20px);
+    }
 }
 
 .choice:hover {
