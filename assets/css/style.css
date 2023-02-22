@@ -173,9 +173,7 @@ header > h1 {
 .choices {
     margin-top: 50px 0;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    
 }
 
 .choice {
@@ -207,6 +205,5 @@ header > h1 {
     border: 8px solid #464647;
     box-shadow: 0 0 10px #25292b;
 }
-
 
 
