@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
 
 * {
     margin: 0;
@@ -19,13 +19,14 @@ header {
 header > h1 {
     color: #25272E;
     text-align: center;
-    font-family: Asap, sans-serif;
+    font-family: electrolize, sans-serif;
+    font-weight: bold;
 }
 
 #rules-heading {
     color: #589595;
     text-align: center;
-    font-family: Asap, sans-serif;
+    font-family: electrolize, sans-serif;
     padding: 10px 0;
     margin-bottom: 20px;
 }
@@ -33,7 +34,7 @@ header > h1 {
 #all-rules {
     color: #225762;
     text-align: center;
-    font-family: Asap, sans-serif;
+    font-family: electrolize, sans-serif;
     padding: 20px;
     border: 1px solid #589595;
     border-radius: 5px;
@@ -47,6 +48,7 @@ header > h1 {
     margin-top: 20px;
     padding: 10px 20px;
     background-color: #589595;
+    font-family: electrolize, sans-serif;
     color: white;
     font-size: 22px;
     cursor: pointer;
@@ -79,6 +81,7 @@ header > h1 {
     padding: 8px 16px;
     font-size: 16px;
     background-color: #589595;
+    font-family: electrolize, sans-serif;
     color: white;
     border: none;
     border-radius: 4px;
@@ -130,7 +133,7 @@ header > h1 {
     color: black;
     font-size: 46px;
     padding: 15px 20px;
-    font-family: Asap, sans-serif;
+    font-family: electrolize, sans-serif;
     position: relative;
 }
 
@@ -139,19 +142,21 @@ header > h1 {
     color: white;
     font-size: 14px;
     padding: 2px 10px;
-    font-family: Asap, sans-serif;
+    font-family: electrolize, sans-serif;
 }
 
 #user-label {
     position: absolute;
     top: 30px;
     left: -25px;
+    font-family: electrolize, sans-serif;
 }
 
 #computer-label {
     position: absolute;
     top: 30px;
     right: -30px;
+    font-family: electrolize, sans-serif;
 }
 
 .result {
@@ -162,8 +167,7 @@ header > h1 {
 .result > p {
     text-align: center;
     font-weight: bold;
-    font-family: Asap, sans-serif;
-
+    font-family: electrolize, sans-serif;
 }
 
 .choices {
@@ -186,6 +190,7 @@ header > h1 {
     background: #225762;
 }
 
+/* not in use */
 #action-message {
     text-align: center;
     color: #589595;
