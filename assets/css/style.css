@@ -45,6 +45,29 @@ header > h1 {
     transition: all 0.3s ease;
 }
 
+#reset {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #589595;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#reset button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #589595;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
 .modal {
     display: none; /*Keeps my modal hidden by default*/
     position: fixed; /* Stay in place */

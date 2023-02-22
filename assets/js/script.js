@@ -22,6 +22,14 @@ window.addEventListener("click", function(event) {
 const userScoreSpan = document.getElementById("user-score");
 const computerScoreSpan = document.getElementById("computer-score");
 const scoreBoard_div = document.querySelector(".score-board");// not used anywhere????????????
+
+const resetButton = document.getElementById("reset");
+
+resetButton.addEventListener("click", () => {
+    userScoreSpan.innerText = "0";
+    computerScoreSpan.innerText = "0";
+});
+
 const result_p = document.querySelector(".result > p");
 const rock_div = document.getElementById("r");
 const paper_div = document.getElementById("p");
