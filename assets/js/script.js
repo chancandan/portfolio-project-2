@@ -60,7 +60,7 @@ function win(userChoice, computerChoice) {
     computerScoreSpan.innerHTML = computerScore;
     result_p.innerHTML = `${convertToWord(userChoice)} beats ${convertToWord(computerChoice)}. You win! `;
     userChoice_div.classList.add('green-glow');
-    setTimeout(() => userChoice_div.classList.remove('green-glow'), 300);
+    setTimeout(() => userChoice_div.classList.remove('green-glow'), 1000);
 }
 
 
@@ -73,7 +73,7 @@ function lose(userChoice, computerChoice) {
     computerScoreSpan.innerHTML = computerScore;
     result_p.innerHTML = `${convertToWord(userChoice)} loses to ${convertToWord(computerChoice)}. You lost! `;
     userChoice_div.classList.add('red-glow');
-    setTimeout(() => userChoice_div.classList.remove('red-glow'), 300);
+    setTimeout(() => userChoice_div.classList.remove('red-glow'), 1000);
 }
 
 function tie(userChoice, computerChoice) {
@@ -81,7 +81,7 @@ function tie(userChoice, computerChoice) {
     const userChoice_div = document.getElementById(userChoice);
     result_p.innerHTML = `${convertToWord(userChoice)} equals ${convertToWord(computerChoice)}. It's a tie! `;
     userChoice_div.classList.add('gray-glow');
-    setTimeout(() => userChoice_div.classList.remove('gray-glow'), 300);
+    setTimeout(() => userChoice_div.classList.remove('gray-glow'), 1000);
 }
 
 
