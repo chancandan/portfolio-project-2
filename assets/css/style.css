@@ -185,18 +185,7 @@ header > h1 {
     padding: 10px;
     display: inline-block;
     transition: all 0.3s ease;
-}
-
-@media screen and (max-width: 400px) {
-    .choices {
-      flex-wrap: wrap;
-    }
-  
-    .choice {
-      width: 50%;
-    }
-  }
-  
+}  
 
 .choice:hover {
     cursor: pointer;
@@ -218,4 +207,19 @@ header > h1 {
     border: 8px solid #464647;
     box-shadow: 0 0 10px #25292b;
 }
+
+@media screen and (max-width: 400px) {
+    
+    header > h1 {
+        font-size: 4px;
+    }
+    
+    .choices {
+      flex-wrap: wrap;
+    }
+  
+    .choice {
+      width: 50%;
+    }
+  }
 
