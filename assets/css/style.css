@@ -208,18 +208,5 @@ header > h1 {
     box-shadow: 0 0 10px #25292b;
 }
 
-@media screen and (max-width: 400px) {
-    
-    header > h1 {
-        font-size: 4px;
-    }
-    
-    .choices {
-      flex-wrap: wrap;
-    }
-  
-    .choice {
-      width: 50%;
-    }
-  }
+
 
