@@ -28,6 +28,8 @@ const resetButton = document.getElementById("reset");
 resetButton.addEventListener("click", () => {
     userScoreSpan.innerText = "0";
     computerScoreSpan.innerText = "0";
+    userScore = 0;
+    computerScore = 0;
 });
 
 const result_p = document.querySelector(".result > p");
