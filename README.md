@@ -190,14 +190,19 @@ During the development of the site, When pushing code to the remote repository, 
 
 ### Validator Testing 
 
-- HTML
-  - All files returned no errors when passed through the official [W3C validator](https://validator.w3.org/nu/#textarea)
+- HTML Validation
+- All files returned no errors when passed through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchancandan.github.io%2Fportfolio-project-2%2F)
 
-  ![index.html validator](docs/readme_images/index_validator.JPG)
+![index.html validator](docs/readme_images/index_validator.JPG)
 
-  - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fchancandan.github.io%2Fportfolio-project-2%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- CSS Validation
+- No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fchancandan.github.io%2Fportfolio-project-2%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-  ![CSS validator](docs/readme_images/css_validator.JPG)
+![CSS validator](docs/readme_images/css_validator.JPG)
 
-  ## Credits 
+- Javascript Validation
+- To verify that my Javascript code was written to the best possible standard I used the JSHint validator to test my JS file. The only errors I had were 5 missing semi-colons which I added into my code and one unused variable which I must have included in the beginning of the project and had forgotten to remove.
+
+![JS Hint validator](docs/readme_images/jshint.JPG)
+
+## Credits 

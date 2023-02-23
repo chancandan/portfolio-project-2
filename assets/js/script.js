@@ -21,7 +21,6 @@ window.addEventListener("click", function(event) {
 
 const userScoreSpan = document.getElementById("user-score");
 const computerScoreSpan = document.getElementById("computer-score");
-const scoreBoard_div = document.querySelector(".score-board");// not used anywhere????????????
 
 const resetButton = document.getElementById("reset");
 
@@ -62,7 +61,7 @@ function win(userChoice, computerChoice) {
     computerScoreSpan.innerHTML = computerScore;
     result_p.innerHTML = `${convertToWord(userChoice)} beats ${convertToWord(computerChoice)}. You win! `;
     userChoice_div.classList.add('green-glow');
-    setTimeout(() => userChoice_div.classList.remove('green-glow'), 10000);
+    setTimeout(() => userChoice_div.classList.remove('green-glow'), 1500);
 }
 
 
@@ -75,7 +74,7 @@ function lose(userChoice, computerChoice) {
     computerScoreSpan.innerHTML = computerScore;
     result_p.innerHTML = `${convertToWord(userChoice)} loses to ${convertToWord(computerChoice)}. You lost! `;
     userChoice_div.classList.add('red-glow');
-    setTimeout(() => userChoice_div.classList.remove('red-glow'), 10000);
+    setTimeout(() => userChoice_div.classList.remove('red-glow'), 1500);
 }
 
 function tie(userChoice, computerChoice) {
@@ -83,7 +82,7 @@ function tie(userChoice, computerChoice) {
     const userChoice_div = document.getElementById(userChoice);
     result_p.innerHTML = `${convertToWord(userChoice)} equals ${convertToWord(computerChoice)}. It's a tie! `;
     userChoice_div.classList.add('gray-glow');
-    setTimeout(() => userChoice_div.classList.remove('gray-glow'), 10000);
+    setTimeout(() => userChoice_div.classList.remove('gray-glow'), 1500);
 }
 
 
@@ -132,19 +131,19 @@ function game(userChoice) {
 function main() {
     rock_div.addEventListener('click', function() {
     game("r");
-})
+});
     paper_div.addEventListener('click', function() {
     game("p");
-})
+});
     scissors_div.addEventListener('click', function() {
     game("sciss");
-})
+});
     lizard_div.addEventListener('click', function() {
     game("l");
-})
+});
     spock_div.addEventListener('click', function() {
     game("sp");
-})
+});
 }
 
 main();
