@@ -93,10 +93,26 @@ The selection of weapons including rock, paper, scissors, lizard, spock. Display
 
 ![Weapons](docs/readme_images/weapons.JPG)
 
+### Color highlighted winner or loser
+
+If the user has won a green border will encircle the winning weapon and similary a red border will encirlce a losing weapon. A gray circle will appear for a tie game.
+
+![Winner](docs/readme_images/winner.JPG)
+
+![Loser](docs/readme_images/loser.JPG)
+
+![Tie](docs/readme_images/tie.JPG)
+
 ### Scoreboard and reset button
 
 An area where both the user and device scores are recorded and updated after each game. 
 A reset button which will start a new match and reset both the user and device scores to zero.
 
 ![Scoreboard](docs/readme_images/scoreboard.JPG)
+
+### Future feautres
+
+* A timer to create a game whereby the first player to reach a certain score before the timer runs out wins the game.
+* A function to hide the other weapon options the user didn't choose.
+* The highlighting of the weapon choosen by the device.
 
