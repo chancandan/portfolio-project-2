@@ -76,3 +76,16 @@ The result of the game in text as feedback to user as to the outcome of the late
 
 ![Outcome feedback](docs/readme_images/game_outcome_feedback.JPG)
 
+### Game weapons / choices
+
+The selection of weapons including rock, paper, scissors, lizard, spock. Displayed in icon format. Taken from images, resized, backgrounds removed using https://www.fotor.com/photo-editor-app/ and saved as PNG files.
+
+![Weapons](docs/readme_images/weapons.JPG)
+
+### Scoreboard and reset button
+
+An area where both the user and device scores are recorded and updated after each game. 
+A reset button which will start a new match and reset both the user and device scores to zero.
+
+![Scoreboard](docs/readme_images/scoreboard.JPG)
+
