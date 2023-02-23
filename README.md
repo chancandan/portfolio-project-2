@@ -68,6 +68,17 @@ A button witht he text "Help" that calls a pop out modal that lists the rules of
 
 ![Help](docs/readme_images/help_button.JPG)
 
+Scissors cuts paper.
+Paper covers rock.
+Rock crushes lizard.
+Lizard poisons Spock.
+Spock smashes scissors.
+Scissors decapitates lizard.
+Lizard eats paper.
+Paper disproves Spock.
+Spock vaporizes rock.
+Rock crushes scissors.
+
 ![Modal](docs/readme_images/modal_rules.JPG)
 
 ### Game outcome feedback
