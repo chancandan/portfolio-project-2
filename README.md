@@ -129,5 +129,39 @@ A reset button which will start a new match and reset both the user and device s
 * [Github](https://github.com/)
 * [Balsamiq](https://balsamiq.com/)
 * [Google Fonts](https://fonts.google.com/)
+* [Favicon](https://favicon.io/favicon-converter/ )
 
+# Testing
+
+### Responsiveness
+
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on Google Chrome, MicrosoftEdge, Mozilla Firefox and Safari.
+
+Steps to test:
+
+1. Open browser and navigate to [Rock Paper Scissors Lizard Spock](https://chancandan.github.io/portfolio-project-2/)
+2. Open the developer tools (right click and inspect)
+3. Set to responsive and decrease width to 320px
+4. Set the zoom to 50%
+5. Click and drag the responsive window to maximum width
+
+Expected:
+
+Website is responsive on all screen sizes and no images are pixelated or stretched.
+No horizontal scroll is present.
+No elements overlap.
+
+Actual:
+
+Website behaved as expected on all browsers.
+
+Website was also opened on the following devices and no responsive issues were present seen:
+
+- HP Laptop 15 -bs1xx
+- Lenovo Chromebook
+- iPhone SE
+- iPhone X
+- iPhone 14 Pro Max
+- iPad (6th Generation)
+- MacBook Air
 
