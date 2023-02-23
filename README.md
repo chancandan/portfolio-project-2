@@ -8,6 +8,7 @@
 ## Table of Contents
 
 1. [Product Goals](#product-goals)
+2. [User experience]()
 
 
 ## Product Goals 
@@ -123,13 +124,15 @@ A reset button which will start a new match and reset both the user and device s
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator)
 * [W3C HTML Validator](https://validator.w3.org/#validate_by_input)
 * [JS Hint Validator](https://jshint.com/)
+
 ### Design
 * [Fotor](https://fotor.com/photo-editor-app/)
 * [Gitpod](https://gitpod.io)
 * [Github](https://github.com/)
 * [Balsamiq](https://balsamiq.com/)
 * [Google Fonts](https://fonts.google.com/)
-* [Favicon](https://favicon.io/favicon-converter/ )
+* [Favicon](https://favicon.io/favicon-converter/)
+* [Tinyjpg](https://tinyjpg.com)
 
 # Testing
 
