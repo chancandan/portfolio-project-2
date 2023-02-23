@@ -111,6 +111,16 @@ A reset button which will start a new match and reset both the user and device s
 * A function to hide the other weapon options the user didn't choose.
 * The highlighting of the weapon choosen by the device.
 
+## Color Scheme 
+
+I used color picker to find the shades of green that wer ein the icon images I choose to use, so that I could keep the my buttons and borders as well as some text in the same scheme.
+
+![Color scheme](docs/readme_images/color_scheme.JPG)
+
+## Wireframe
+
+I used balsamic to create a simple wires frame to have an idea of what my design and layout of the game should look like.
+
 # Technologies used
 * [HTML](https://en.wikipedia.org/wiki/HTML5) 
 * [CSS](https://en.wikipedia.org/wiki/CSS)
@@ -127,6 +137,7 @@ A reset button which will start a new match and reset both the user and device s
 * [Google Fonts](https://fonts.google.com/)
 * [Favicon](https://favicon.io/favicon-converter/)
 * [Tinyjpg](https://tinyjpg.com)
+* [Colorpicker](https://imagecolorpicker.com/en)
 
 # Testing
 
