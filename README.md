@@ -168,6 +168,17 @@ Website was also opened on the following devices and no responsive issues were p
 - iPad (6th Generation)
 - MacBook Air
 
+### Lighthouse
+
+The site was taken through Google Chrome's Lighthouse testing.
+
+![Lighthouse scores for Index Page](docs/readme_images/lighthouse_index.JPG)
+
+## Event Listener Testing
+
+* When each weapon choice button is clicked it triggers an event. All these different premutations of possible out comes were tested and all worked perfectly in testing.
+
+
 ## Deployment
 
 ### Deployment to Github Pages
@@ -208,10 +219,30 @@ During the development of the site, When pushing code to the remote repository, 
 
 ![JS Hint validator](docs/readme_images/jshint.JPG)
 
-## Credits 
+## Credits and Acknowledgements
 
 A variety of contributors and help went into the development this website:
 
-### Content 
+* The images used for the weapon choices were from a google search. They didn't all come from the same site, despite being from the same style collection. Site's search as https://icon-library.com/ are be acknowledged.
 
-- The font used "electrolize" was taken from google fonts.
+* The font used "electrolize" was taken from google fonts.
+
+* Modal code was learned from https://www.w3schools.com/howto/howto_css_modals.asp
+
+* The geeksforgeeks website helped me understand the logic behind the game I chose. https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/
+
+* https://www.instructables.com/How-to-Play-Rock-Paper-Scissors-Lizard-Spock/ helped me to work out the permutations and rules to be included in my site.
+
+* Youtube tutorial https://www.youtube.com/watch?v=1yS-JV4fWqY
+
+* Youtube page https://www.youtube.com/@Zenva for inspiration and ideas
+
+* Youtube tutorial https://www.youtube.com/watch?v=qWPtKtYEsN4 was another tutorial I watched to gain an understanding of how to use javascript for my project.
+
+* @AniaKubow's content has been great throughout the javascript module in helping me to better grasp the language.
+
+* My class and course facilitator have been great help in our slack group during this project.
+
+* Finally, my mentor Gareth has been great in helping me clearly understand the project brief and nudging me in the right direction when I've come unstuck.
+
+* Youtube tutorial https://www.youtube.com/watch?v=jaVNP3nIAv0 simplified clean code for me.
