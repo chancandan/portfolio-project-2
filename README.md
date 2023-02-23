@@ -5,12 +5,6 @@
 
 ![Mockup](docs/readme_images/responsiveness.JPG)
 
-## Table of Contents
-
-1. [Product Goals](#product-goals)
-2. [User experience]()
-
-
 ## Product Goals 
 
 ### User Goals
@@ -181,6 +175,34 @@ The site was taken through Google Chrome's Lighthouse testing.
 
 ![Rock Test](docs/readme_images/rock_test.JPG)
 
+- Next the paper button is tested in the image bleow. Again, the correct weapon choice displays in the text feedback above the icon buttons and this time we win by beating rock.
+- The score board is also working correctly for each time the user wins by adding 1 point to our side of the score. The green glow surrounding paper represents us winning.
+
+![Paper Test](docs/readme_images/paper_test.JPG)
+
+- For the next test I choose scissors and again the game is working perfectly and this time the game is a tie which is great as that was the only outcome left to test. We can see in the feedback text that scissors equals scissors and there is a gray color glow around our button icon to show that it's a draw. Also we can see that the score remains at 1-1 and this is great as a tie does not add a point to either player and the should should not increment.
+
+![Scissors Test](docs/readme_images/scissors_test.JPG)
+
+- Lizard is tested next in the image below. The user wins this time and feedback test is updated correctly, along with the scoreboard which now reads 2-1 to the user. The green winning glow works and it fades away after 1.5 seconds.
+
+![Lizard Test](docs/readme_images/lizard_test.JPG)
+
+- The final button choice to test is Spock. The button works perfectly as does the feedback text. The score reads 3-2 in the image, however I must add, that I clicked an extra click before this text where the score went to 2-2. Despite the break in image patterns the score board is working correctly. 
+- Therefore, all game buttons are working correctly.
+- The scoreboard is updating the relevant scores in the right way.
+- The feedback text for accessibility reasons is working fine.
+- The glow borders are all working in the correct manner and are disappearing when they should be.
+
+- The next item to test is the rest button and in the image below you can see after I click the rest button it resets both the user and computer score back to zero.
+
+![Scoreboard Reset](docs/readme_images/scoreboard_reset.JPG)
+
+- One error that I have since debugged is that new I would reset the scores back to zero they would reset correctly, however, when I clicked a weapon button for a new match to begin the score would increment from the last score in the previous match. For example a match that had a score  of 9 : 8 would reset back to 0 : 0 but when I started a new match and lets say my firs game weapon choice lost then the score board would read 9 : 9. I knew that my innerHTML was reseting correctly but I had to code my Javascript to reset the userChoice and computerChoice too. After I made these changes the scoreboard worked correctly in every way, as can be seen in the image below when I click Rock to start a new match, I lose and score is updated correctly to signify a new match has begun.
+
+![Scoreboard New Game](docs/readme_images/scoreboard_new_game.JPG)
+
+- I have show above in this README that the modal Help button is also working correctly, therefore, all aspects of the game have been tested and everything is working as it should.
 
 ## Deployment
 
