@@ -206,3 +206,9 @@ During the development of the site, When pushing code to the remote repository, 
 ![JS Hint validator](docs/readme_images/jshint.JPG)
 
 ## Credits 
+
+A variety of contributors and help went into the development this website:
+
+### Content 
+
+- The font used "electrolize" was taken from google fonts.
