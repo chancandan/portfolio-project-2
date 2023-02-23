@@ -174,9 +174,12 @@ The site was taken through Google Chrome's Lighthouse testing.
 
 ![Lighthouse scores for Index Page](docs/readme_images/lighthouse_index.JPG)
 
-## Event Listener Testing
+## Event Listener and Button Testing
 
-* When each weapon choice button is clicked it triggers an event. All these different premutations of possible out comes were tested and all worked perfectly in testing.
+- When each weapon choice button is clicked it triggers an event. All these different premutations of possible out comes were tested and all worked perfectly in testing.
+- Below each button can be seen in the testing phase. A button is click and an event listeners calls that weapon and determines if the user has won or lost. A glow of either green for a win, red for a loss or gray should then surround the selected weapon button to give the user feedback on the game outcome. First, is the rock test. It is clicked and the test above the weapons reads "Rock (our choice) loses to Paper (the computer's choice)." Followed by the game outcome in text. This is for accessibility incase a user is color blind they might not be able to see which color glow surrounds the weapon. However, in the image below the red glow can be see as a border glow around our losing choice of rock. This will display for just 1.5 seconds and disappear and the game match is ready to continue. The scoreboard is also tested here and we can see that it updates correctly. The user receives no point because they lost and the device or computer picks up 1 point for their win and this is added to the counter.
+
+![Rock Test](docs/readme_images/rock_test.JPG)
 
 
 ## Deployment
@@ -243,6 +246,7 @@ A variety of contributors and help went into the development this website:
 
 * My class and course facilitator have been great help in our slack group during this project.
 
+* Youtube tutorial https://www.youtube.com/watch?v=jaVNP3nIAv0 for help on a score counter.
+
 * Finally, my mentor Gareth has been great in helping me clearly understand the project brief and nudging me in the right direction when I've come unstuck.
 
-* Youtube tutorial https://www.youtube.com/watch?v=jaVNP3nIAv0 simplified clean code for me.
