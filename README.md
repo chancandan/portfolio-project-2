@@ -116,3 +116,18 @@ A reset button which will start a new match and reset both the user and device s
 * A function to hide the other weapon options the user didn't choose.
 * The highlighting of the weapon choosen by the device.
 
+# Technologies used
+* [HTML](https://en.wikipedia.org/wiki/HTML5) 
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator)
+* [W3C HTML Validator](https://validator.w3.org/#validate_by_input)
+* [JS Hint Validator](https://jshint.com/)
+### Design
+* [Fotor](https://fotor.com/photo-editor-app/)
+* [Gitpod](https://gitpod.io)
+* [Github](https://github.com/)
+* [Balsamiq](https://balsamiq.com/)
+* [Google Fonts](https://fonts.google.com/)
+
+
