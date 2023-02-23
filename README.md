@@ -64,7 +64,15 @@ A simple heading displaying the game name in a font that is in a design often us
 
 ### Help / Game rules
 
-A pop out modal that lists the rules of the game and which weapon trumps another. The modal fading everything outside of the pop out box so as to engage the user with the content in the rules section. There is an "X" for users to click to close this box or they can just click anywhere on the screen outside of the white content box to close it.
+A button witht he text "Help" that calls a pop out modal that lists the rules of the game and which weapon trumps another. The modal fading everything outside of the pop out box so as to engage the user with the content in the rules section. There is an "X" for users to click to close this box or they can just click anywhere on the screen outside of the white content box to close it.
 
-![Help](docs/readme_images/modal_rules.JPG)
+![Help](docs/readme_images/help_button.JPG)
+
+![Modal](docs/readme_images/modal_rules.JPG)
+
+### Game outcome feedback
+
+The result of the game in text as feedback to user as to the outcome of the latest game played, e.g. "Rock loses to paper. You lost!"
+
+![Outcome feedback](docs/readme_images/game_outcome_feedback.JPG)
 
