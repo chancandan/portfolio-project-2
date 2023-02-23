@@ -165,3 +165,32 @@ Website was also opened on the following devices and no responsive issues were p
 - iPad (6th Generation)
 - MacBook Air
 
+## Deployment
+
+### Deployment to Github Pages
+
+- The Rock Paper Scisscors Lizard Spock game site was deployed to GitHub pages. The following steps were taken when deploying: 
+  - Navigate to the Settings tab in the GitHub repository 
+  - Select 'Pages' from the menu on the left of the screen
+  - Select the 'Branch: main' option from the drop-down menu in the source section
+  - Then click 'Save'
+  - After a short wait a live link will be appear in a green banner when published successfully. 
+
+The game's live link can be found here - https://chancandan.github.io/portfolio-project-2/
+
+### Version Control
+
+During the development of the site, When pushing code to the remote repository, I used the following git commands 
+
+```git add .``` - All files added to a staging area awaiting the commit phase.
+
+```git commit -m “specific commit message”``` - To commit changes to the local repository queue where they become ready for the push phase.
+
+```git push``` - All commited code would be then pushed to the site's repo on github.
+
+### Validator Testing 
+
+- HTML
+  - All files returned no errors when passed through the official [W3C validator](https://validator.w3.org/nu/#textarea)
+
+  ![index.html validator](docs/readme_images/index_validator.JPG)
