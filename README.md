@@ -55,3 +55,16 @@
 # Features
 
 ## Existing Features
+
+### Title
+
+A simple heading displaying the game name in a font that is in a design often used in gaming realted content called "Electrolize.
+
+![Title](docs/readme_images/game_title.JPG)
+
+### Help / Game rules
+
+A pop out modal that lists the rules of the game and which weapon trumps another. The modal fading everything outside of the pop out box so as to engage the user with the content in the rules section. There is an "X" for users to click to close this box or they can just click anywhere on the screen outside of the white content box to close it.
+
+![Help](docs/readme_images/modal_rules.JPG)
+
